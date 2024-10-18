@@ -25,7 +25,7 @@ class _HomePageState extends State<HomePage> {
    else if(buttonText =="+" || buttonText == "-" || buttonText == "X" || buttonText=="/"){
      number1=double.parse(result);
      operand=buttonText;
-     value="0";
+     value=operand;
    }
      else if(buttonText=="="){
        number2=double.parse(result);
